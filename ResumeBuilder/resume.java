@@ -39,7 +39,7 @@ public class resume
 
     public void setEmailId(String EmailId)
     {
-        this.getEmailId = getEmailId;
+        this.EmailId = EmailId;
     }
 
     public int getContactNo()
@@ -68,9 +68,9 @@ public class resume
 		return LinkedinURL;
 	}
 
-    public void setLinkedin(String Linkedin)
+    public void setLinkedin(String LinkedinURL)
     {
-		this.linkedin = linkedin;
+		this.LinkedinURL = LinkedinURL;
 	}
 
     public String getWebsite()

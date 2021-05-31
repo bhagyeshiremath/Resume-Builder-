@@ -1,35 +1,40 @@
-public class total; 
+package ResumeBuilder;
+import java.util.*;
+
+public class total
 {
-	private Resume resume ;
-	private ArrayList<Education> education;
-	private ArrayList<Project> projects;
+	
+	private resume Resume ;
+	private ArrayList<education> Education;
+	private ArrayList<project> Projects;
 
-    public Resume getresume() 
+    public resume getresume() 
     {
-		return resume;
+		return Resume;
 	}
 
-	public void setHeader(Header header) 
+	public void setresume(resume Resume) 
     {
-		this.header = header;
+		this.Resume = Resume;
 	}
 
-	public ArrayList<Education> getEducation() 
+	public ArrayList<education> getEducation() 
     {
-		return education;
+		return Education;
 	}
 
-	public void setEducation(ArrayList<Education> education) 
+	public void setEducation(ArrayList<education> Education) 
     {
-		this.education = education;
+		this.Education = Education;
 	}
 
-	public ArrayList<Project> getProjects() 
+	public ArrayList<project> getProjects() 
     {
-		return projects;
+		return Projects;
 	}
 
-	public void setProjects(ArrayList<Project> projects) {
-		this.projects = projects;
+	public void setProjects(ArrayList<project> Projects) 
+	{
+		this.Projects = Projects;
 	}
 }

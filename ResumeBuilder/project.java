@@ -1,3 +1,4 @@
+package ResumeBuilder;
 import java.util.*;
 
 public class project 
@@ -8,14 +9,16 @@ public class project
 
 	public String getTitle() 
     {
-		return name;
+		return Title;
 	}
 
-	public void setTitle(String Title) {
+	public void setTitle(String Title) 
+	{
 		this.Title =Title;
 	}
 
-	public String getDescription() {
+	public String getDescription() 
+	{
 		return Description;
 	}
 
@@ -29,7 +32,8 @@ public class project
 		return Technology;
 	}
 
-	public void setTechnology(String Technology) {
+	public void setTechnology(String Technology) 
+	{
 		this.Technology = Technology;
 	}
 }

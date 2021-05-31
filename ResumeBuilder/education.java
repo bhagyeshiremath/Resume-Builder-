@@ -1,3 +1,4 @@
+package ResumeBuilder;
 import java.util.*;
 
 public class education 
@@ -15,10 +16,11 @@ public class education
         this.University = University;
         //this.Percentage = Percentage;
         this.PassingYear = PassingYear;
+	}
 
 	public String getQualification() 
     {
-		return Name;
+		return Qualification;
 	}
 
 	public void setQualification(String Qualification) 
@@ -39,7 +41,7 @@ public class education
 
 	public String getUniversity() 
     {
-		return majors;
+		return University;
 	}
 
 	public void setUniversity(String University) 
@@ -52,7 +54,7 @@ public class education
 		return Percentage;
 	}
 
-	public void setPercentage(String Percentage) 
+	public void setPercentage(int Percentage) 
     {
 		this.Percentage = Percentage;
 	}
@@ -61,7 +63,7 @@ public class education
     {
 		return PassingYear;
 	}
-
+	
 	public void setPassingYear(String PassingYear) 
     {
 		this.PassingYear = PassingYear;
