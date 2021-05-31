@@ -1,4 +1,4 @@
-package ResumeBuilder;
+/*package ResumeBuilder;
 import java.util.*;
 
 public class total
@@ -37,4 +37,4 @@ public class total
 	{
 		this.Projects = Projects;
 	}
-}
+}*/
