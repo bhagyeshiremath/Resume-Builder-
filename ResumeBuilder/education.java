@@ -7,6 +7,7 @@ public class education
     private String University;
     private int Percentage;
 	private String PassingYear;
+	
     public education (String Qualification , String SchoolName , String University , String PassingYear)
     {
         this.Qualification = Qualification;
